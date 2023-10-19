@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: #f9f6ff;
+background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 10h10v10H0V10zM10 0h10v10H10V0z' fill='%23e28e3a' fill-opacity='0.07' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.encabezado{
+    
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin:0;
+    gap: 0;
+
+}
+.imagen{
+    width:100%;
+    height:100%;
+grid-column: 1;
+
+}
+.titulo{
+    background-color: rgb(227, 168, 116);
+    display: grid;
+grid-column: 2;
+justify-content:center;
+text-align: center;
+
+font-size: 1cm;
+}
+.lista{
+    list-style: none;
+    font-size: 0.5cm;
+    font-weight: bold;
+   
+}
+.navegacion{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    background-color: rgb(168, 252, 252);
+    padding: 0.5cm;
+    
+}
+
+
+.articulos_cursos{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 1cm;
+}
+.articulos{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    
+}
+.articulo{
+    background-color: rgba(255, 238, 238, 0.53);
+    margin: 3px;
+    
+}
+.imagen_articulo{
+    width: 300px;
+    height: 300px;
+}
+.cursos{
+    display: grid;
+    grid-template-rows: 2;
+    
+}
+.caja_curso{
+    margin: 0.5cm;
+    background-color: rgb(249, 208, 246);
+}
+.pie{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-decoration:none;
+}
