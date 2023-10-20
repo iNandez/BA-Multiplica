@@ -1,79 +1,179 @@
+
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
 body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
     margin: 0;
     border: 0;
     background-color: #f9f6ff;
-background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 10h10v10H0V10zM10 0h10v10H10V0z' fill='%23e28e3a' fill-opacity='0.07' fill-rule='evenodd'/%3E%3C/svg%3E");
+
 }
 .encabezado{
     
-    display: grid;
-    grid-template-columns: 25% 75%;
-    margin:0;
-    gap: 0;
+background-image: url(img/imagen_header.webp);/** la imagen no tiene la mejor calidad pero es la que me gusto dsp la cambio por una en mejor calidad**/
+height: 50rem;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
 
 }
-.imagen{
-    width:100%;
-    height:100%;
-grid-column: 1;
+@media (min-width:768px){
+    .titulo{
+        margin-top: 15rem;
 
+    }
 }
 .titulo{
-    background-color: rgb(227, 168, 116);
-    display: grid;
-grid-column: 2;
-justify-content:center;
 text-align: center;
+color: white;
+margin: 0;
 
-font-size: 1cm;
 }
-.lista{
+
+
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+
+@media (min-width:768px){
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo{
+color: white;
+margin: 0;
+text-align: center;
+text-decoration: none;
+}
+.logo_nombre{
+font-weight: 400;
+}
+.logo_negrita{
+font-weight: 700;
+}
+@media (min-width:768px){
+    .navegacion{display: flex;
+        gap: 2rem;
+
+}
+}
+.navegacion_enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+@media(min-width:768px){
+    .contenido_principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+.entrada{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 2rem;
+}
+.entrada:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+.boton{
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+}
+@media(min-width:768px){
+    .boton{
+        display: inline-block;
+    }
+}
+.boton_primario{
+    background-color: black;
+
+}
+.boton_secundario{
+    background-color: rgb(108, 50, 50);
+}
+.curso{
+    padding: 0;
     list-style: none;
-    font-size: 0.5cm;
-    font-weight: bold;
-   
 }
-.navegacion{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-between;
-    background-color: rgb(168, 252, 252);
-    padding: 0.5cm;
-    
+.curso_caja{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }
-
-
-.articulos_cursos{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    margin: 1cm;
+.curso_caja:last-of-type{
+    border: 0;
+    margin: 0;
 }
-.articulos{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    
+.curso_texto{
+font-family: 'PT Sans', sans-serif;
+font-weight: bold;
 }
-.articulo{
-    background-color: rgba(255, 238, 238, 0.53);
-    margin: 3px;
-    
+.curso_info{
+font-weight: normal;
+font-size: 2rem;
 }
-.imagen_articulo{
-    width: 300px;
-    height: 300px;
-}
-.cursos{
-    display: grid;
-    grid-template-rows: 2;
-    
-}
-.caja_curso{
-    margin: 0.5cm;
-    background-color: rgb(249, 208, 246);
-}
-.pie{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-decoration:none;
+.footer{
+    background-color: black;
+    padding: 1rem 0;
+    margin-top: 1rem;
 }
