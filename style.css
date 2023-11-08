@@ -1,4 +1,7 @@
 
+/**            -----------generales -----------                   **/
+
+
 a {
     text-decoration: none;
 }
@@ -29,16 +32,16 @@ h1, h2, h3, h4 {
     line-height: 1.2;
 }
 h1 {
-    font-size: 4.8rem;
+    font-size: 3.8rem;
 }
 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 h3 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
 }
 h4 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -52,10 +55,16 @@ body{
 img{
     max-width: 100%;
 }
+
+
+/**         ------------------ Header   --------------              **/
+
+
+
 .encabezado{
     
 background-image: url(img/imagen_header.webp);/** la imagen no tiene la mejor calidad pero es la que me gusto dsp la cambio por una en mejor calidad**/
-height: 50rem;
+height: 30rem;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
@@ -108,6 +117,11 @@ font-weight: 700;
 
 }
 }
+
+
+/**      -----------------Navegacion  ------------              **/
+
+
 .navegacion_enlace{
     display: block;
     text-align: center;
@@ -115,6 +129,11 @@ font-weight: 700;
     color: white;
     text-decoration: none;
 }
+
+
+/**         ------------------contenido principal  ----------             **/
+
+
 @media(min-width:768px){
     .contenido_principal{
         display: grid;
@@ -130,6 +149,13 @@ font-weight: 700;
     border: none;
     margin-bottom: 0;
 }
+
+
+
+/**           --------------boton    ------------          **/
+
+
+
 .boton{
     display: block;
     font-family: 'PT Sans', sans-serif;
@@ -158,6 +184,11 @@ font-weight: 700;
 .boton_secundario{
     background-color: rgb(108, 50, 50);
 }
+
+
+/**       ------------Cursos pagina principal-------------- **/
+
+
 .curso{
     padding: 0;
     list-style: none;
@@ -179,6 +210,11 @@ font-weight: bold;
 font-weight: normal;
 font-size: 2rem;
 }
+
+
+/**                -----------------footer------------- **/
+
+
 .footer{
     background-color: black;
     padding: 1rem 0;
@@ -188,7 +224,7 @@ font-size: 2rem;
     text-align: center;
 }
 
-
+/**                --------------Cursos --------------**/
 
 @media(min-width:768px){
     .sobre_nosotros{
@@ -219,18 +255,24 @@ font-size: 2rem;
 .titulo_receta,.ingredientes,.preparacion{
     text-align: center;
 }
+
+
+/**                -------------------Contacto------------------  **/
+
+
 .fondo_contacto{
     background-image: url(img/fondo_contacto.jpg);
     height: 20rem;
-    width:90rem ;
+    width:91rem ;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .formulario{
+    font-family:'PT Sans', sans-serif ;
 background-color: white;
 margin: -5rem auto 0 auto;
-width: 95%;
+width:95%;
 padding: 1rem;
 }
 .campo{
