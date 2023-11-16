@@ -30,6 +30,7 @@ a {
 h1, h2, h3, h4 {
     font-family: 'PT Sans', sans-serif;
     line-height: 1.2;
+    font-weight: bold;
 }
 h1 {
     font-size: 3.8rem;
@@ -330,7 +331,4 @@ height: 20rem;
     to{
         transform: rotate(1turn);
     }
-}
-.form-control{
-    visibility: visible;
 }
