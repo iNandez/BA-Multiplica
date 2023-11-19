@@ -64,7 +64,7 @@ img{
 
 .encabezado{
     
-background-image: url(/img/imagen_header.webp);/** la imagen no tiene la mejor calidad pero es la que me gusto dsp la cambio por una en mejor calidad**/
+background-image: url(../img/imagen_header.webp);/** la imagen no tiene la mejor calidad pero es la que me gusto dsp la cambio por una en mejor calidad**/
 height: 30rem;
 background-size: cover;
 background-repeat: no-repeat;
