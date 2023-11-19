@@ -64,7 +64,7 @@ img{
 
 .encabezado{
     
-background-image: url(img/imagen_header.webp);/** la imagen no tiene la mejor calidad pero es la que me gusto dsp la cambio por una en mejor calidad**/
+background-image: url(/img/imagen_header.webp);/** la imagen no tiene la mejor calidad pero es la que me gusto dsp la cambio por una en mejor calidad**/
 height: 30rem;
 background-size: cover;
 background-repeat: no-repeat;
@@ -331,4 +331,21 @@ height: 20rem;
     to{
         transform: rotate(1turn);
     }
+}
+
+
+/*           video responsive?      */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
