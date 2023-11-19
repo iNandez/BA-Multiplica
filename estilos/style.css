@@ -262,7 +262,7 @@ font-size: 2rem;
 
 
 .fondo_contacto{
-    background-image: url(img/fondo_contacto.jpg);
+    background-image: url(../img/fondo_contacto.jpg);
     height: 20rem;
     width:91rem ;
     background-size:cover;
